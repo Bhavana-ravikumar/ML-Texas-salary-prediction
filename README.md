@@ -9,7 +9,9 @@ Analysis of Texas state government employee salaries, with machine learning mode
 - Build and compare models that predict annual salary
 
 ## Dataset
-Texas state government employee salary records (`salary.csv`), with columns such as agency, class title, gender, ethnicity, employ date, monthly and annual salary.
+Texas state government employee salary records (`salary.csv`), provided as part of my AI/ML specialization training. The file is not included in this repo because of its size.
+
+Key columns include agency, class title, gender, ethnicity, employ date, and monthly and annual salary.
 
 ## Approach
 1. **Data cleaning:** dropped rows with missing salary, converted employ dates to datetime, handled missing values and duplicates
@@ -19,11 +21,10 @@ Texas state government employee salary records (`salary.csv`), with columns such
 5. **Modeling:** one-hot encoded agency, class title, gender and ethnicity, then trained on an 80/20 train-test split
 6. **Model comparison:** Linear Regression, Random Forest and XGBoost, compared on R² and MSE
 
-
 ## Tools
 Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, XGBoost, Jupyter Notebook
 
 ## How to run
-1. Download `BHAVANA_R_TEXAS_PROJECT.ipynb` and `salary.csv` into the same folder
+1. Place `BHAVANA_R_TEXAS_PROJECT.ipynb` and your copy of `salary.csv` in the same folder
 2. Install dependencies: `pip install pandas numpy matplotlib seaborn scikit-learn xgboost`
 3. Open the notebook in Jupyter or Google Colab and run all cells
